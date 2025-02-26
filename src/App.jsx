@@ -6,10 +6,10 @@ const App = () => {
   const [newBook, setNewBook] = useState({ title: '', author: '', image_url: '' });
   const [editBook, setEditBook] = useState(null);
   const [error, setError] = useState('');
-  const uri = 'https://cuddly-couscous-5gxw5vrjg6xj24644-5001.app.github.dev/';
+  const uri = 'https://shiny-spork-7v6pw69p6grcp59g-5001.app.github.dev/';
 
-  const username = 'amin';
-  const password = 'passs';
+  const username = 'sukanya';
+  const password = 'fluke';
   const encodedCredentials = btoa(`${username}:${password}`);
 
   useEffect(() => {
